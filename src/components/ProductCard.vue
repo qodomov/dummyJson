@@ -39,7 +39,6 @@
 </template>
 <script setup>
 import { defineProps } from 'vue'
-import useProducts from '../views/products'
 defineProps(['product'])
-const state = useProducts()
+
 </script>
